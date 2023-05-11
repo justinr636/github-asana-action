@@ -1,7 +1,7 @@
 
 # Github-Asana action
 
-This action integrates asana with github.
+This action integrates asana with github. This is a forked repo of [insurify/github-asana-action](https://github.com/insurify/github-asana-action)
 
 ### Prerequisites
 
@@ -40,7 +40,7 @@ if you don't want to move task omit `targets`.
 #### Without special characters:
 
 ```yaml
-uses: insurify/github-asana-action@v1.0.5
+uses: justinr636/github-asana-action@v1.0.5
 with:
   asana-pat: 'Your PAT'
   task-comment: 'View Pull Request Here: '
@@ -51,7 +51,7 @@ with:
 #### With special characters:
 
 ```yaml
-uses: insurify/github-asana-action@v1.0.5
+uses: justinr636/github-asana-action@v1.0.5
 with:
   asana-pat: 'Your PAT'
   task-comment: 'View Pull Request Here: '
