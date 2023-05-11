@@ -1,4 +1,4 @@
-name: 'Asana Git'
+name: 'Asana Github Action'
 description: 'Asana Github Action'
 inputs:
   asana-pat:
